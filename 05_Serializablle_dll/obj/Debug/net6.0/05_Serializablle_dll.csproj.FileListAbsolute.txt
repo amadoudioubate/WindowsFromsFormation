@@ -1,0 +1,12 @@
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\05_Serializablle_dll\bin\Debug\net6.0\05_Serializablle_dll.deps.json
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\05_Serializablle_dll\bin\Debug\net6.0\05_Serializablle_dll.dll
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\05_Serializablle_dll\bin\Debug\net6.0\05_Serializablle_dll.pdb
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\05_Serializablle_dll\obj\Debug\net6.0\05_Serializablle_dll.csproj.AssemblyReference.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\05_Serializablle_dll\obj\Debug\net6.0\05_Serializablle_dll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\05_Serializablle_dll\obj\Debug\net6.0\05_Serializablle_dll.AssemblyInfoInputs.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\05_Serializablle_dll\obj\Debug\net6.0\05_Serializablle_dll.AssemblyInfo.cs
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\05_Serializablle_dll\obj\Debug\net6.0\05_Serializablle_dll.csproj.CoreCompileInputs.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\05_Serializablle_dll\obj\Debug\net6.0\05_Serializablle_dll.dll
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\05_Serializablle_dll\obj\Debug\net6.0\refint\05_Serializablle_dll.dll
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\05_Serializablle_dll\obj\Debug\net6.0\05_Serializablle_dll.pdb
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\05_Serializablle_dll\obj\Debug\net6.0\ref\05_Serializablle_dll.dll

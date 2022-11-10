@@ -1,0 +1,17 @@
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\bin\Debug\net6.0-windows\02_RadioButtons.exe
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\bin\Debug\net6.0-windows\02_RadioButtons.deps.json
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\bin\Debug\net6.0-windows\02_RadioButtons.runtimeconfig.json
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\bin\Debug\net6.0-windows\02_RadioButtons.dll
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\bin\Debug\net6.0-windows\02_RadioButtons.pdb
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\obj\Debug\net6.0-windows\02_RadioButtons.csproj.AssemblyReference.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\obj\Debug\net6.0-windows\_02_RadioButtons.Form1.resources
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\obj\Debug\net6.0-windows\02_RadioButtons.csproj.GenerateResource.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\obj\Debug\net6.0-windows\02_RadioButtons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\obj\Debug\net6.0-windows\02_RadioButtons.AssemblyInfoInputs.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\obj\Debug\net6.0-windows\02_RadioButtons.AssemblyInfo.cs
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\obj\Debug\net6.0-windows\02_RadioButtons.csproj.CoreCompileInputs.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\obj\Debug\net6.0-windows\02_RadioButtons.dll
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\obj\Debug\net6.0-windows\refint\02_RadioButtons.dll
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\obj\Debug\net6.0-windows\02_RadioButtons.pdb
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\obj\Debug\net6.0-windows\02_RadioButtons.genruntimeconfig.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\02_RadioButtons\obj\Debug\net6.0-windows\ref\02_RadioButtons.dll

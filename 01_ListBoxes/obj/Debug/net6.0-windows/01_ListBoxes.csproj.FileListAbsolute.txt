@@ -1,0 +1,17 @@
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\bin\Debug\net6.0-windows\01_ListBoxes.exe
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\bin\Debug\net6.0-windows\01_ListBoxes.deps.json
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\bin\Debug\net6.0-windows\01_ListBoxes.runtimeconfig.json
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\bin\Debug\net6.0-windows\01_ListBoxes.dll
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\bin\Debug\net6.0-windows\01_ListBoxes.pdb
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\obj\Debug\net6.0-windows\01_ListBoxes.csproj.AssemblyReference.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\obj\Debug\net6.0-windows\_01_ListBoxes.Form1.resources
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\obj\Debug\net6.0-windows\01_ListBoxes.csproj.GenerateResource.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\obj\Debug\net6.0-windows\01_ListBoxes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\obj\Debug\net6.0-windows\01_ListBoxes.AssemblyInfoInputs.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\obj\Debug\net6.0-windows\01_ListBoxes.AssemblyInfo.cs
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\obj\Debug\net6.0-windows\01_ListBoxes.csproj.CoreCompileInputs.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\obj\Debug\net6.0-windows\01_ListBoxes.dll
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\obj\Debug\net6.0-windows\refint\01_ListBoxes.dll
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\obj\Debug\net6.0-windows\01_ListBoxes.pdb
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\obj\Debug\net6.0-windows\01_ListBoxes.genruntimeconfig.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\01_ListBoxes\obj\Debug\net6.0-windows\ref\01_ListBoxes.dll

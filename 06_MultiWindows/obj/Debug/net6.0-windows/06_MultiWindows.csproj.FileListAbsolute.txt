@@ -1,0 +1,17 @@
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\bin\Debug\net6.0-windows\06_MultiWindows.exe
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\bin\Debug\net6.0-windows\06_MultiWindows.deps.json
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\bin\Debug\net6.0-windows\06_MultiWindows.runtimeconfig.json
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\bin\Debug\net6.0-windows\06_MultiWindows.dll
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\bin\Debug\net6.0-windows\06_MultiWindows.pdb
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\obj\Debug\net6.0-windows\06_MultiWindows.csproj.AssemblyReference.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\obj\Debug\net6.0-windows\_06_MultiWindows.Form1.resources
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\obj\Debug\net6.0-windows\06_MultiWindows.csproj.GenerateResource.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\obj\Debug\net6.0-windows\06_MultiWindows.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\obj\Debug\net6.0-windows\06_MultiWindows.AssemblyInfoInputs.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\obj\Debug\net6.0-windows\06_MultiWindows.AssemblyInfo.cs
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\obj\Debug\net6.0-windows\06_MultiWindows.csproj.CoreCompileInputs.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\obj\Debug\net6.0-windows\06_MultiWindows.dll
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\obj\Debug\net6.0-windows\refint\06_MultiWindows.dll
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\obj\Debug\net6.0-windows\06_MultiWindows.pdb
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\obj\Debug\net6.0-windows\06_MultiWindows.genruntimeconfig.cache
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\obj\Debug\net6.0-windows\ref\06_MultiWindows.dll
