@@ -30,6 +30,24 @@ namespace Async
 
             return result;
         }
+
+        public static async Task<WebSite> DownloadAsync(string url)
+        {
+            WebSite result = new();
+
+            WebClient client = new();
+
+            /*
+             * WebClient est obsolète mais propose des méthodes non asynchrones qu'on va utiliser pour
+             * implémenter nos propres méthodes asynchrones
+             */
+
+            result.Url = url;
+
+            result.Donnees = await client.DownloadStringTaskAsync(result.Url);
+
+            return result;
+        }
         public override string ToString()
         {
             return $"{Url} - taille {Donnees.Length}\n";

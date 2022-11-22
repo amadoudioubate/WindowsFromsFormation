@@ -79,11 +79,11 @@ namespace Async
         #endregion
 
         #region ASYNCHRONE
-        private void ExecuteAsync_CLICK(object sender, RoutedEventArgs e)
+        private async void ExecuteAsync_CLICK(object sender, RoutedEventArgs e)
         {
             var chrono = Stopwatch.StartNew();
 
-            DownloadASync();
+            await DownloadASync();
 
             chrono.Stop();
 
@@ -98,7 +98,11 @@ namespace Async
             {
 
                 // On part du principe qu'on ne peut pas rendre WebSite.Download directement asynchrone
-                WebSite downloaded = await Task.Run(() =>WebSite.Download(site)); 
+                WebSite downloaded = await Task.Run(() => WebSite.Download(site)); 
+
+
+                // Alors qu'en vrai on peut indiferement choisir les deux
+                //WebSite downloaded = await Task.Run(() => WebSite.Download(site)); 
 
                 Results.Content += downloaded.ToString();
             }
@@ -108,11 +112,38 @@ namespace Async
 
 
         #region PARALLELE
-        private void ExecuteParallelAsync_CLICK(object sender, RoutedEventArgs e)
+        private async void ExecuteParallelAsync_CLICK(object sender, RoutedEventArgs e)
         {
+            var chrono = Stopwatch.StartNew();
 
+            await DownloadParallelASync();
+
+            chrono.Stop();
+
+            Results.Content += $"Durée d'exécution totale : {chrono.ElapsedMilliseconds}";
         }
 
+
+        private async Task DownloadParallelASync()
+        {
+            Results.Content = String.Empty;
+
+            List<Task> taches = new();
+
+            foreach (var site in Sites) // Boucler sur notre liste de sites
+            {
+
+                taches.Add(DownloadASyncAndPrint(site));
+            }
+
+            await Task.WhenAll(taches);
+        }
+
+        private async Task DownloadASyncAndPrint(string site)
+        {
+            WebSite downloaded = await WebSite.DownloadAsync(site);
+            Results.Content += downloaded.ToString();
+        }
         #endregion
     }
 }
