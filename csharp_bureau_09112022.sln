@@ -30,6 +30,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{7EC4E99C-6E3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatriceWPF", "CalculatriceWPF\CalculatriceWPF.csproj", "{3E23D01F-E456-4307-8A20-FC1217660CAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dispatcher", "Dispatcher\Dispatcher.csproj", "{BE6B5A0D-35F5-476F-B012-D18863E04F11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,6 +78,10 @@ Global
 		{3E23D01F-E456-4307-8A20-FC1217660CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E23D01F-E456-4307-8A20-FC1217660CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E23D01F-E456-4307-8A20-FC1217660CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE6B5A0D-35F5-476F-B012-D18863E04F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6B5A0D-35F5-476F-B012-D18863E04F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6B5A0D-35F5-476F-B012-D18863E04F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6B5A0D-35F5-476F-B012-D18863E04F11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +97,7 @@ Global
 		{DD47B44B-9EE0-40E4-9111-A3020C54587F} = {F17AF555-DDD3-439B-BB75-3ABDE0C755B3}
 		{8BA53102-44A6-4112-8F97-3C81E50B53BD} = {F17AF555-DDD3-439B-BB75-3ABDE0C755B3}
 		{3E23D01F-E456-4307-8A20-FC1217660CAA} = {7EC4E99C-6E32-4ECE-BCA5-3A36BC319F6C}
+		{BE6B5A0D-35F5-476F-B012-D18863E04F11} = {7EC4E99C-6E32-4ECE-BCA5-3A36BC319F6C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6FC1D878-B459-4F43-8340-95EDB6682216}
