@@ -70,14 +70,14 @@ namespace BagroundWoker
             progressBar.Value = e.ProgressPercentage; // Mettre à jour progressBar
         }
 
-        int con = 1;
+        
         private void BgWorker_DoWork(object? sender, DoWorkEventArgs e)
         {
-            for (int i = con; i <= counterMax; i++)
+            for (int i = 1; i <= counterMax; i++)
             {
                 bgWorker.ReportProgress(i);
                 Thread.Sleep(100); // Pour que ça ne va pas trop vite
-                con = i;
+                
                 if (bgWorker.CancellationPending)
                 {
                     e.Cancel = true;
