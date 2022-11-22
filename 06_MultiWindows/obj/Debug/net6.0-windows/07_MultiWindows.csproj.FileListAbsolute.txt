@@ -24,3 +24,5 @@ C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\bin
 C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\obj\Debug\net6.0-windows\07_MultiWindows.csproj.CopyComplete
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\obj\Debug\net6.0-windows\MultiWindows.FormProduitAjouter.resources
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\06_MultiWindows\obj\Debug\net6.0-windows\MultiWindows.FormUtilisateurs.resources

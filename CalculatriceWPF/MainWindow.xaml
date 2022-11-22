@@ -1,0 +1,114 @@
+﻿<Window x:Class="CalculatriceWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalculatriceWPF"
+        mc:Ignorable="d"
+        Title="Calculatrice" Height="500" Width="500"
+        FontSize="30" WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <!-- Code deporté dans App.xaml pour que le style s'applique partout (-->
+    <!--<Window.Resources>
+        
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="4"/>
+            <Setter Property="Foreground" Value="Blue"/>
+        </Style>
+
+        
+        <Style TargetType="Button" 
+               BasedOn="{StaticResource {x:Type Button}}" 
+               x:Key="DelButton">
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+
+        
+        <Style TargetType="Button" 
+               BasedOn="{StaticResource DelButton}"
+               x:Key="Operator">
+            <Setter Property="Foreground" Value="Green"/>
+        </Style>
+
+    </Window.Resources>-->
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10" /> <!-- Gère marge et me permet aussi de ne pas me perde dans mes calculs d'indice column ou row -->
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="10" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="10" />
+        </Grid.RowDefinitions>
+
+        <Button Content="(" Grid.Row="3" Grid.Column="1" Click="Key_Click"/>
+        <Button Content=")" Grid.Row="3" Grid.Column="2" Click="Key_Click"/>
+        
+        <Button Content="DEL" 
+                Grid.Row="3" 
+                Grid.Column="3" 
+                Click="Key_Click"
+                Style="{StaticResource DelButton}"/>
+        
+        <Button Content="/" 
+                Grid.Row="3" 
+                Grid.Column="4" 
+                Click="Key_Click"
+                Style="{StaticResource Operator}"/>
+
+        <Button Content="7" Grid.Row="4" Grid.Column="1" Click="Key_Click"/>
+        <Button Content="8" Grid.Row="4" Grid.Column="2" Click="Key_Click"/>
+        <Button Content="9" Grid.Row="4" Grid.Column="3" Click="Key_Click"/>
+       
+        <Button Content="*" 
+                Grid.Row="4" 
+                Grid.Column="4" 
+                Click="Key_Click"
+                Style="{StaticResource Operator}"/>
+
+        <Button Content="4" Grid.Row="5" Grid.Column="1" Click="Key_Click"/>
+        <Button Content="5" Grid.Row="5" Grid.Column="2" Click="Key_Click"/>
+        <Button Content="6" Grid.Row="5" Grid.Column="3" Click="Key_Click"/>
+        
+        <Button Content="+" 
+                Grid.Row="5" 
+                Grid.Column="4" 
+                Click="Key_Click"
+                Style="{StaticResource Operator}"/>
+
+        <Button Content="1" Grid.Row="6" Grid.Column="1" Click="Key_Click"/>
+        <Button Content="2" Grid.Row="6" Grid.Column="2" Click="Key_Click"/>
+        <Button Content="3" Grid.Row="6" Grid.Column="3" Click="Key_Click"/>
+        
+        <Button Content="-" 
+                Grid.Row="6" 
+                Grid.Column="4" 
+                Click="Key_Click"
+                Style="{StaticResource Operator}"/>
+
+        <Button Content="C" Grid.Row="7" Grid.Column="1" Click="Key_Click"/>
+        <Button Content="0" Grid.Row="7" Grid.Column="2" Click="Key_Click"/>
+        <Button Content="." Grid.Row="7" Grid.Column="3" Click="Key_Click"/>
+        
+        <Button Content="=" 
+                Grid.Row="7" 
+                Grid.Column="4" 
+                Click="Key_Click"
+                Style="{StaticResource Operator}"/>
+
+        <TextBox x:Name="txt_Operation" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" 
+                 VerticalContentAlignment="Center"/>
+        <TextBlock x:Name="txt_Result" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="4"/>
+    </Grid>
+</Window>

@@ -1,0 +1,33 @@
+﻿<Application x:Class="CalculatriceWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CalculatriceWPF"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        
+        <!-- On peut déporter les styles dans un/des dictionnaires de ressources -->
+        <!--<Style TargetType="Button">
+            <Setter Property="Margin" Value="4"/>
+            <Setter Property="Foreground" Value="Blue"/>
+        </Style>-->
+
+        <!-- BaseOn veut dire baser sur une autre balise stype -->
+        <!--<Style TargetType="Button" 
+               BasedOn="{StaticResource {x:Type Button}}" 
+               x:Key="DelButton">
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>-->
+
+        <!-- BaseOn on se base sur DelButton -->
+        <!--<Style TargetType="Button" 
+               BasedOn="{StaticResource DelButton}"
+               x:Key="Operator">
+            <Setter Property="Foreground" Value="Green"/>
+        </Style>-->
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Ressources/Style.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

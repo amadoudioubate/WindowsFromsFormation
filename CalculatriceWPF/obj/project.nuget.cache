@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ix2dJSmoTCPtJ4/CS8k5eHHyEhwQ+VJq3uZ76Ofd+eMFztcmpACeOlR04+7ITttN6KQ108wr1fw8tCCp2cDYFQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin Stagiaire\\source\\repos\\csharp_bureau_09112022\\CalculatriceWPF\\CalculatriceWPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin Stagiaire\\.nuget\\packages\\moonsharp\\2.0.0\\moonsharp.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
