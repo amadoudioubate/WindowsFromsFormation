@@ -5,33 +5,72 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NavigationMultiWindow"
         mc:Ignorable="d"
-        Title="Navigation" Height="450" Width="800">
+        Title="Navigation" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Window.CommandBindings>
+        
+        <CommandBinding Command="New"
+                        Executed="NewCommandExecute"
+                        CanExecute="NewCommandCanExecute"/>
+
+        <!-- Commande cutom définie dans la classe "CustomCommands" (dans le code Behind) -->
+        <CommandBinding Command="local:CustomCommands.Exit"
+                        Executed="ExitCommandExecute"
+                        CanExecute="ExitCommandCanExecute"/>
+    </Window.CommandBindings>
     <StackPanel>
 
         <Menu VerticalAlignment="Top" HorizontalAlignment="Left"
               Height="20">
 
-            <MenuItem Header="File">
+            <MenuItem Header="_File">
 
-                <MenuItem Header="New" Click="New_Click">
-                    
+                <!--<MenuItem Header="New" Click="New_Click">
+                    <MenuItem.Icon>
+                        --><!-- Clique droit sur l'image => propriétés => action de génération => selectionne Ressource--><!--
+                        <Image Source="/ressources/new-icon.png" />
+                    </MenuItem.Icon>
+                </MenuItem>-->
+
+                <!-- Pour créer un raccourci il faut créer un 'Command'
+                     Pour créer une 'Command' :
+                        - Remplacer 'Header' par 'Command'
+                        - Supprimer l'action de 'Click'
+                        - rajouter <Window.CommandeBinding
+                        - rajouter la comamnde associée avec "CanExecute" et "Executed"
+                -->
+                <MenuItem Command="New">
+                    <MenuItem.Icon>
+                        <!-- Clique droit sur l'image => propriétés => action de génération => selectionne Ressource-->
+                        <Image Source="/ressources/new-icon.png" />
+                    </MenuItem.Icon>
                 </MenuItem>
 
                 <Separator Height="1" />
 
                 <MenuItem Header="Open" Click="Open_Click">
-
+                    <MenuItem.Icon>
+                        <Image Source="/ressources/open-icon.png" />
+                    </MenuItem.Icon>
                 </MenuItem>
 
                 <Separator Height="1" />
 
-                <MenuItem Header="Exit" Click="Exit_Click">
-
+                <!--<MenuItem Header="Exit" Click="Exit_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/ressources/exit-icon.png" />
+                    </MenuItem.Icon>
+                </MenuItem>-->
+                <MenuItem Command="local:CustomCommands.Exit">
+                    <MenuItem.Icon>
+                        <!-- Clique droit sur l'image => propriétés => action de génération => selectionne Ressource-->
+                        <Image Source="/ressources/new-icon.png" />
+                    </MenuItem.Icon>
                 </MenuItem>
 
             </MenuItem>
 
-            <MenuItem Header="Edit">
+            <MenuItem Header="_Edit">
                 <MenuItem.ItemsPanel>
                     <ItemsPanelTemplate>
                         <VirtualizingStackPanel Orientation="Horizontal"/><!-- Par defaut le menu est vertical-->
@@ -50,7 +89,7 @@
                 <MenuItem Header="Modal" Click="Modal_Click"/>
             </MenuItem>
 
-            <MenuItem Header="Pages">
+            <MenuItem Header="Pa_ges">
                 <MenuItem Header="Page 1" Click="Page1_Click"/>
                 <Separator Height="1"/>
                 <MenuItem Header="Page 2" Click="Page2_Click"/>
@@ -58,6 +97,7 @@
 
         </Menu>
 
+        <!--  NavigationUIVisibility="Hidden" pour eviter que le bouton navigation apparaisse  -->
         <Frame Height="300" x:Name="framePage" NavigationUIVisibility="Hidden"/>
 
 

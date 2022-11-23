@@ -7,4 +7,16 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="ressources\exit-icon.png" />
+    <None Remove="ressources\new-icon.png" />
+    <None Remove="ressources\open-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ressources\exit-icon.png" />
+    <Resource Include="ressources\new-icon.png" />
+    <Resource Include="ressources\open-icon.png" />
+  </ItemGroup>
+
 </Project>
