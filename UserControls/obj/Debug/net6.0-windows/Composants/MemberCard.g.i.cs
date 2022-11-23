@@ -61,7 +61,7 @@ namespace UserControls.Composants {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/UserControls;component/composants/membercard.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/UserControls;V1.0.0.0;component/composants/membercard.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Composants\MemberCard.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

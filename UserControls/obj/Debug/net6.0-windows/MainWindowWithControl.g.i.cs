@@ -54,7 +54,7 @@ namespace UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/UserControls;component/mainwindowwithcontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/UserControls;V1.0.0.0;component/mainwindowwithcontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MainWindowWithControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
