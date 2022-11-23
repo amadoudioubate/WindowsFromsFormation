@@ -1,0 +1,29 @@
+﻿<Window x:Class="UserControls.MainWindowWithControl"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserControls"
+        xmlns:Composants="clr-namespace:UserControls.Composants"
+        mc:Ignorable="d"
+        Title="MainWindowWithControl" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Composants:MemberCard 
+            Grid.Column="0"
+            Couleur="Green"
+            Titre="Abonnement Basic"
+            JoindreClick="JoindreClickBasic"
+            />
+        <Composants:MemberCard 
+            Grid.Column="1"
+            Titre="Abonnement Premium"
+            JoindreClick="JoindreClickPremium"
+            />
+    </Grid>
+</Window>

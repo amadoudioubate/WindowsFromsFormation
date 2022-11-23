@@ -24,5 +24,15 @@ namespace UserControls
         {
             InitializeComponent();
         }
+
+        private void OnJoinBasic_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Membre Basic", "", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+
+        private void OnJoinPremium_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

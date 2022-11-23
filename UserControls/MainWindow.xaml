@@ -5,8 +5,83 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UserControls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="UserControls" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid Grid.Column="0" Margin="50">
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
 
+            <Rectangle
+                Grid.Row="0"
+                Height="150" 
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                Fill="Yellow"
+                Stroke="Black"
+                />
+
+            <TextBlock
+                Grid.Row="1"
+                FontSize="16"
+                Text="Abonnement Basic"
+                Margin="0 20 0 0"
+                />
+
+            <Button
+                Grid.Row="2"
+                Content="Joindre"
+                Margin="0 20 0 0"
+                HorizontalAlignment="Left"
+                FontSize="16"
+                Padding="5 2"
+                Click="OnJoinBasic_Click"
+                />
+        </Grid>
+
+
+        <Grid Grid.Column="1" Margin="50">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <Rectangle
+                Grid.Row="0"
+                Height="150" 
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                Fill="Red"
+                Stroke="Black"
+                />
+
+            <TextBlock
+                Grid.Row="1"
+                FontSize="16"
+                Text="Abonnement Premium"
+                Margin="0 20 0 0"
+                />
+
+            <Button
+                Grid.Row="2"
+                Content="Joindre"
+                Margin="0 20 0 0"
+                HorizontalAlignment="Left"
+                FontSize="16"
+                Padding="5 2"
+                Click="OnJoinPremium_Click"
+                />
+        </Grid>
     </Grid>
 </Window>
