@@ -40,6 +40,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationMultiWindow", "Na
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControls", "UserControls\UserControls.csproj", "{AF250A19-71FE-44F2-88AB-93757ADE0DC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding", "Binding\Binding.csproj", "{D345A30C-92A4-405B-BD8D-F97B4AD683BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -106,6 +108,10 @@ Global
 		{AF250A19-71FE-44F2-88AB-93757ADE0DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF250A19-71FE-44F2-88AB-93757ADE0DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF250A19-71FE-44F2-88AB-93757ADE0DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D345A30C-92A4-405B-BD8D-F97B4AD683BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D345A30C-92A4-405B-BD8D-F97B4AD683BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D345A30C-92A4-405B-BD8D-F97B4AD683BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D345A30C-92A4-405B-BD8D-F97B4AD683BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -126,6 +132,7 @@ Global
 		{D14BA1E3-86A0-4345-A593-0D529A51E261} = {7EC4E99C-6E32-4ECE-BCA5-3A36BC319F6C}
 		{F1AD3D44-10B8-4D2B-8B7F-532D7621F801} = {7EC4E99C-6E32-4ECE-BCA5-3A36BC319F6C}
 		{AF250A19-71FE-44F2-88AB-93757ADE0DC4} = {7EC4E99C-6E32-4ECE-BCA5-3A36BC319F6C}
+		{D345A30C-92A4-405B-BD8D-F97B4AD683BD} = {7EC4E99C-6E32-4ECE-BCA5-3A36BC319F6C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6FC1D878-B459-4F43-8340-95EDB6682216}
