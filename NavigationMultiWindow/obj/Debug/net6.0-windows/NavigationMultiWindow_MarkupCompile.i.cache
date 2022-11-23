@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\NavigationMultiWindow\App.xaml
-11407045341
+4-761453914
 
-5-221597049
+8-1095558766
 194618410957
-MainWindow.xaml;
+Child.xaml;MainWindow.xaml;Page1.xaml;Page2.xaml;
 
-False
+True
 

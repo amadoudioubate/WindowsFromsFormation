@@ -19,3 +19,9 @@ C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\NavigationMultiWind
 C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\NavigationMultiWindow\obj\Debug\net6.0-windows\NavigationMultiWindow.pdb
 C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\NavigationMultiWindow\obj\Debug\net6.0-windows\NavigationMultiWindow.genruntimeconfig.cache
 C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\NavigationMultiWindow\obj\Debug\net6.0-windows\ref\NavigationMultiWindow.dll
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\NavigationMultiWindow\obj\Debug\net6.0-windows\Child.g.cs
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\NavigationMultiWindow\obj\Debug\net6.0-windows\Page1.g.cs
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\NavigationMultiWindow\obj\Debug\net6.0-windows\Page2.g.cs
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\NavigationMultiWindow\obj\Debug\net6.0-windows\Child.baml
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\NavigationMultiWindow\obj\Debug\net6.0-windows\Page1.baml
+C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\NavigationMultiWindow\obj\Debug\net6.0-windows\Page2.baml

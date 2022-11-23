@@ -37,7 +37,31 @@ namespace NavigationMultiWindow
 
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Menu 'Exit' Clicked !");
+            Application.Current.Shutdown();
+        }
+
+        // Fenetre ouverte en mode not modal, on aura accès à notre fenetre parente
+        private void NotModal_Click(object sender, RoutedEventArgs e)
+        {
+            Child notModal = new() { Owner = this };
+            notModal.Show();
+        }
+
+        // Fenetre ouverte en mode modal, on aura plus accès à notre fenetre parente
+        private void Modal_Click(object sender, RoutedEventArgs e) 
+        {
+            Child notModal = new() { Owner = this };
+            notModal.ShowDialog();
+        }
+
+        private void Page1_Click(object sender, RoutedEventArgs e)
+        {
+            framePage.Content = new Page1();
+        }
+
+        private void Page2_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

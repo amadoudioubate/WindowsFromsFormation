@@ -34,19 +34,32 @@
             <MenuItem Header="Edit">
                 <MenuItem.ItemsPanel>
                     <ItemsPanelTemplate>
-                        <VirtualizingStackPanel Orientation="Horizontal"/>
+                        <VirtualizingStackPanel Orientation="Horizontal"/><!-- Par defaut le menu est vertical-->
                     </ItemsPanelTemplate>
                     
                 </MenuItem.ItemsPanel>
 
                 <MenuItem Header="Copier"/>
                 <MenuItem Header="Coller"/>
+                <MenuItem Header="Couper"/>
+            </MenuItem>
+
+            <MenuItem Header="Fe_netres"> <!-- Alt + N ouvre le menu fenetre à cause de _-->
+                <MenuItem Header="Not Modal" Click="NotModal_Click"/>
+                <Separator Height="1"/>
+                <MenuItem Header="Modal" Click="Modal_Click"/>
+            </MenuItem>
+
+            <MenuItem Header="Pages">
+                <MenuItem Header="Page 1" Click="Page1_Click"/>
+                <Separator Height="1"/>
+                <MenuItem Header="Page 2" Click="Page2_Click"/>
             </MenuItem>
 
         </Menu>
 
-        <Frame>
-            
-        </Frame>
+        <Frame Height="300" x:Name="framePage" NavigationUIVisibility="Hidden"/>
+
+
     </StackPanel>
 </Window>
