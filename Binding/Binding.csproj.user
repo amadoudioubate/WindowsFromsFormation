@@ -7,7 +7,21 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ModifProduit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ModifProduitWithValidation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ModifProduit.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ModifProduitWithValidation.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

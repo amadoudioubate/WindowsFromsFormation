@@ -1,0 +1,71 @@
+﻿<Window x:Class="Binding.ModifProduitWithValidation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Binding"
+        xmlns:Validation="clr-namespace:Binding.Validation"
+        mc:Ignorable="d"
+         Title="ModifProduit" Height="450" Width="450"
+        WindowStartupLocation="CenterScreen"
+        x:Name="root"
+        Loaded="Window_Loaded">
+    <Window.Resources>
+        <Validation:ListToStringConverter x:Key="lstConverter"/>
+    </Window.Resources>
+    <StackPanel Orientation="Vertical" Margin="25">
+
+        <StackPanel Orientation="Horizontal">
+
+            <TextBlock Text="Id" MinWidth="100" Margin="5" />
+
+            <TextBlock  x:Name="TxtBoxId" 
+                        Text="{Binding ElementName=root, Path=Product.Id}"
+                        Margin="5" 
+                        IsEnabled="False"/>
+
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+
+            <TextBlock Text="Description" MinWidth="100" Margin="5"/>
+
+            <TextBox
+            x:Name="TxtBoxDescription"
+            Margin="5"
+            MinWidth="100">
+                <TextBox.Text>
+                    <Binding ElementName="root" Path="Product.Description" UpdateSourceTrigger="PropertyChanged" >
+                        <Binding.ValidationRules>
+                            <Validation:DescriptionValidationRule Min="3" Max="15" ValidatesOnTargetUpdated="True"/>
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+
+        </StackPanel>
+
+        <TextBlock x:Name="TxtBoxDescription_Error"
+                       Foreground="Red"
+                        Text="{Binding ElementName=TxtBoxDescription, Path=(Validation.Errors), Converter={StaticResource lstConverter}}"/>
+
+
+        <StackPanel Orientation="Horizontal">
+
+            <TextBlock Text="Prix" MinWidth="100" Margin="5" />
+
+            <TextBox  x:Name="TxtBoxPrix" 
+                        Text="{Binding ElementName=root, Path=Product.Prix, UpdateSourceTrigger=PropertyChanged}"
+                        Margin="5" 
+                        MinWidth="100"/>
+
+        </StackPanel>
+
+        <Button x:Name="BtnSauvegarder"
+                Margin="5"
+                Content="Sauvegarder"
+                Click="BtnSauvegarder_Click"
+                />
+
+    </StackPanel>
+</Window>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Admin Stagiaire\source\repos\csharp_bureau_09112022\Binding\App.xaml
-11407045341
+3665451852
 
-8855266076
+12511335740
 194618410957
-MainWindow.xaml;
+MainWindow.xaml;ModifProduit.xaml;ModifProduitWithValidation.xaml;
 
-False
+True
 

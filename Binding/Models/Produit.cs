@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Binding.Models
 {
@@ -24,6 +20,7 @@ namespace Binding.Models
                 {
                     throw new Exception("Un prix ne peut pas être négatif");
                 }
+                _prix = value;
             }
         }
 

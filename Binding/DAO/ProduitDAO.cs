@@ -17,8 +17,8 @@ namespace Binding.DAO
         public ProduitDAO()
         {
             _produits.Add(new Produit(1, "clavier", 45));
-            _produits.Add(new Produit(1, "ordinateur", 450));
-            _produits.Add(new Produit(1, "souris", 15));
+            _produits.Add(new Produit(2, "ordinateur", 450));
+            _produits.Add(new Produit(3, "souris", 15));
         }
         
 
