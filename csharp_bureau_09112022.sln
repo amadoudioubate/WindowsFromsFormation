@@ -28,13 +28,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForms", "WinForms", "{F1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{7EC4E99C-6E32-4ECE-BCA5-3A36BC319F6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatriceWPF", "CalculatriceWPF\CalculatriceWPF.csproj", "{3E23D01F-E456-4307-8A20-FC1217660CAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatriceWPF", "CalculatriceWPF\CalculatriceWPF.csproj", "{3E23D01F-E456-4307-8A20-FC1217660CAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dispatcher", "Dispatcher\Dispatcher.csproj", "{BE6B5A0D-35F5-476F-B012-D18863E04F11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dispatcher", "Dispatcher\Dispatcher.csproj", "{BE6B5A0D-35F5-476F-B012-D18863E04F11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundWorker", "BagroundWoker\BackgroundWorker.csproj", "{2D7CBD0A-88DE-431F-A9DC-B5F634D2864D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackgroundWorker", "BagroundWoker\BackgroundWorker.csproj", "{2D7CBD0A-88DE-431F-A9DC-B5F634D2864D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async", "Async\Async.csproj", "{D14BA1E3-86A0-4345-A593-0D529A51E261}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async", "Async\Async.csproj", "{D14BA1E3-86A0-4345-A593-0D529A51E261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationMultiWindow", "NavigationMultiWindow\NavigationMultiWindow.csproj", "{F1AD3D44-10B8-4D2B-8B7F-532D7621F801}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,6 +96,10 @@ Global
 		{D14BA1E3-86A0-4345-A593-0D529A51E261}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D14BA1E3-86A0-4345-A593-0D529A51E261}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D14BA1E3-86A0-4345-A593-0D529A51E261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1AD3D44-10B8-4D2B-8B7F-532D7621F801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1AD3D44-10B8-4D2B-8B7F-532D7621F801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1AD3D44-10B8-4D2B-8B7F-532D7621F801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1AD3D44-10B8-4D2B-8B7F-532D7621F801}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -112,6 +118,7 @@ Global
 		{BE6B5A0D-35F5-476F-B012-D18863E04F11} = {7EC4E99C-6E32-4ECE-BCA5-3A36BC319F6C}
 		{2D7CBD0A-88DE-431F-A9DC-B5F634D2864D} = {7EC4E99C-6E32-4ECE-BCA5-3A36BC319F6C}
 		{D14BA1E3-86A0-4345-A593-0D529A51E261} = {7EC4E99C-6E32-4ECE-BCA5-3A36BC319F6C}
+		{F1AD3D44-10B8-4D2B-8B7F-532D7621F801} = {7EC4E99C-6E32-4ECE-BCA5-3A36BC319F6C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6FC1D878-B459-4F43-8340-95EDB6682216}
