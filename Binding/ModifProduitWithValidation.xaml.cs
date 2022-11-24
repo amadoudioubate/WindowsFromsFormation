@@ -1,9 +1,20 @@
 ﻿using Binding.DAO;
 using Binding.Models;
 using System.Windows;
+using System.Windows.Input;
 
 namespace Binding
 {
+    public static class CustomCommands
+    {
+        public static readonly RoutedUICommand Update = new(
+            "Update",
+            "Update", typeof(CustomCommands),
+            new InputGestureCollection()
+            {
+                new KeyGesture(Key.S, ModifierKeys.Control)
+            });
+    }
     /// <summary>
     /// Logique d'interaction pour ModifProduitWithValidation.xaml
     /// </summary>
@@ -42,16 +53,39 @@ namespace Binding
             */
         }
 
-        private void BtnSauvegarder_Click(object sender, RoutedEventArgs e)
-        {
-            _dao.Update(Product);
-
-            this.Close();
-        }
+        
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             this.SizeToContent = SizeToContent.WidthAndHeight;
+        }
+
+        private void Update_CanExecute(object sender, CanExecuteRoutedEventArgs e)
+        {
+            if (TxtBoxDescription_Error.Text.Length > 0 || TxtBoxPrix_Error.Text.Length >0)
+            {
+                e.CanExecute = false;
+            }
+            else
+            {
+                e.CanExecute = true;
+            }
+            
+        }
+
+
+        // Remplacer par la commande Update_Executed "Update"
+        /*private void BtnSauvegarder_Click(object sender, RoutedEventArgs e)
+        {
+            _dao.Update(Product);
+
+            this.Close();
+        }*/
+        private void Update_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            _dao.Update(Product);
+
+            this.Close();
         }
     }
 }

@@ -10,6 +10,11 @@
         WindowStartupLocation="CenterScreen"
         x:Name="root"
         Loaded="Window_Loaded">
+    <Window.CommandBindings>
+        <CommandBinding Command="local:CustomCommands.Update" 
+                        CanExecute="Update_CanExecute" 
+                        Executed="Update_Executed"/>
+    </Window.CommandBindings>
     <Window.Resources>
         <Validation:ListToStringConverter x:Key="lstConverter"/>
     </Window.Resources>
@@ -47,7 +52,9 @@
 
         <TextBlock x:Name="TxtBoxDescription_Error"
                        Foreground="Red"
-                        Text="{Binding ElementName=TxtBoxDescription, Path=(Validation.Errors), Converter={StaticResource lstConverter}}"/>
+                        Text="{Binding ElementName=TxtBoxDescription, 
+                                       Path=(Validation.Errors), 
+                                       Converter={StaticResource lstConverter}}"/>
 
 
         <StackPanel Orientation="Horizontal">
@@ -55,16 +62,25 @@
             <TextBlock Text="Prix" MinWidth="100" Margin="5" />
 
             <TextBox  x:Name="TxtBoxPrix" 
-                        Text="{Binding ElementName=root, Path=Product.Prix, UpdateSourceTrigger=PropertyChanged}"
+                        Text="{Binding ElementName=root, 
+                                       Path=Product.Prix, 
+                                       UpdateSourceTrigger=PropertyChanged,
+                                       ValidatesOnExceptions=True}"
                         Margin="5" 
                         MinWidth="100"/>
 
         </StackPanel>
 
+        <TextBlock x:Name="TxtBoxPrix_Error"
+                       Foreground="Red"
+                        Text="{Binding ElementName=TxtBoxPrix, 
+                                       Path=(Validation.Errors), 
+                                       Converter={StaticResource lstConverter}}"/>
+
         <Button x:Name="BtnSauvegarder"
                 Margin="5"
                 Content="Sauvegarder"
-                Click="BtnSauvegarder_Click"
+                Command="local:CustomCommands.Update"
                 />
 
     </StackPanel>
